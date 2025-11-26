@@ -71,7 +71,7 @@ This project eliminates that limitation by **optimizing footsteps, forces, and b
 
   <div style="text-align: center; width: 45%;">
     <div style="height: 260px; overflow: hidden; border-radius: 8px;">
-      <img src="assets/bipedal/thumbnail1.png"
+      <img src="assets/bipedal/thumbnail1.PNG"
            style="width: 100%; height: 100%; object-fit: cover;">
     </div>
     <p><em>Unitree A1 traversing an uneven wooden-block terrain under uncertainty.</em></p>
@@ -79,7 +79,7 @@ This project eliminates that limitation by **optimizing footsteps, forces, and b
 
   <div style="text-align: center; width: 45%;">
     <div style="height: 260px; overflow: hidden; border-radius: 8px;">
-      <img src="assets/bipedal/thumbnail2.png"
+      <img src="assets/bipedal/thumbnail2.PNG"
            style="width: 100%; height: 100%; object-fit: cover;">
     </div>
     <p><em>Wall-supported upright bipedal locomotion of Unitree Go2 under real-time MR-NMPC control.</em></p>
