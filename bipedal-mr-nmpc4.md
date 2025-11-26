@@ -21,7 +21,6 @@ This video includes:
 - The complete **multi-rate control architecture**
 - Key **performance plots & baseline comparisons**
 - **Hardware experiments** on the physical Unitree Go2
-- Recovery from **terrain height uncertainty and contact disturbances**
 
 > 📌 *For technical details, controller structure, and quantitative results, please refer to the video above — it serves as the primary technical reference for this project.*
 
@@ -30,13 +29,12 @@ This video includes:
 ## 🔧 System Overview
 
 - **Robot:** Unitree Go2  
-- **Control Stack:**
-  - High-level planner: **Multi-Rate NMPC**
-  - Low-level tracking: **Whole-Body Controller (500 Hz)**
+- **Hierarchical Control Stack:**
+  - High-level planner: **Multi-Rate NMPC(50 Hz)**
+  - Low-level tracking: **Whole-Body Controller(500 Hz)**
 - **Update Rates:**
   - Footstep planning: **3 Hz**
   - Reaction forces & CoM control: **50 Hz**
-- **Deployment:** Real-time on physical hardware
 
 ---
 
@@ -69,6 +67,25 @@ This project eliminates that limitation by **optimizing footsteps, forces, and b
 - **Stabilization strategy:** Monkey-like contact sequencing using front limbs for torso stabilization during transitions
 
 📷 *(Representative hardware photos and sequences can be added here optionally if desired.)*
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+
+  <div style="text-align: center; width: 45%;">
+    <div style="height: 260px; overflow: hidden; border-radius: 8px;">
+      <img src="assets/bipedal/thumbnail1.png"
+           style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <p><em>Unitree A1 traversing an uneven wooden-block terrain under uncertainty.</em></p>
+  </div>
+
+  <div style="text-align: center; width: 45%;">
+    <div style="height: 260px; overflow: hidden; border-radius: 8px;">
+      <img src="assets/bipedal/thumbnail2.png"
+           style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    <p><em>Wall-supported upright bipedal locomotion of Unitree Go2 under real-time MR-NMPC control.</em></p>
+  </div>
+
+</div>
 
 ---
 
