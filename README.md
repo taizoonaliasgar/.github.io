@@ -7,7 +7,7 @@
 ---
 
 ## 🧠 Recent Projects
-- **[Multi-Rate NMPC for Wall-Supported Bipedal Locomotion](bipedal-mr-nmpc4.md)** – Developed for Unitree Go2, achieving 13× improvement in uneven terrain traversal.
+- **[Multi-Rate NMPC for Wall-Supported Bipedal Locomotion](bipedal-mr-nmpc5.md)** – Developed for Unitree Go2, achieving 13× improvement in uneven terrain traversal.
 - **[Robust MPC for Tremor-Suppression Exoskeleton](rmpc-exoskeleton.md)** – Designed to mitigate tremor-induced disturbances for assistive wearables.
 
 ---
