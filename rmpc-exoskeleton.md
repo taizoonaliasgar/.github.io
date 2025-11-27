@@ -18,7 +18,7 @@ This project develops a **Robust Model Predictive Control (RMPC)** framework for
 - **Sensing (for model & validation):** Encoders + IMU
 - **Validation Mode:** High-fidelity numerical simulation
 <div style="text-align:center; margin-bottom: 24px;">
-  <img src="assets/exoskeleton/TAWE (1).png"
+  <img src="assets/exoskeleton/TAWE.png"
        style="max-width: 85%; border-radius: 10px;">
   <p style="margin-top: 8px;">
     <em>Tremor Alleviating Wrist Exoskeleton (TAWE) used for RMPC controller design and validation.</em>
@@ -121,7 +121,7 @@ If you would like to feature plots on the webpage, place them in:
   <!-- Sinusoidal Reference -->
   <div style="text-align: center; width: 45%;">
     <div style="height: 260px; display: flex; align-items: center; justify-content: center;">
-      <img src="assets/exoskeleton/sin_reference_tracking3 (1).png"
+      <img src="assets/exoskeleton/sin_reference_tracking3.png"
            style="max-width: 100%; max-height: 100%; object-fit: contain;">
     </div>
     <p style="margin-top: 8px;">
