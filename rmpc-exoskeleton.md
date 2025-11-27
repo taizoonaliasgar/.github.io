@@ -134,47 +134,6 @@ If you would like to feature plots on the webpage, place them in:
 ## 📊 Key Quantitative Results
 
 - **≈ 2× reduction in joint-angle RMSE** under tremor disturbances compared to standard MPC
-
-<table style="margin: 12px auto 20px auto; border-collapse: collapse; width: 90%; text-align: center;">
-  <thead>
-    <tr>
-      <th rowspan="2" style="border-bottom: 2px solid #000; padding: 6px 8px;">Controller</th>
-      <th colspan="2" style="border-bottom: 2px solid #000; border-left: 1px solid #000; padding: 6px 8px;">
-        Constant Ref.
-      </th>
-      <th colspan="2" style="border-bottom: 2px solid #000; border-left: 1px solid #000; padding: 6px 8px;">
-        Sinusoidal Ref.
-      </th>
-    </tr>
-    <tr>
-      <th style="border-bottom: 2px solid #000; border-left: 1px solid #000; padding: 4px 8px;">q₁</th>
-      <th style="border-bottom: 2px solid #000; padding: 4px 8px;">q₂</th>
-      <th style="border-bottom: 2px solid #000; border-left: 1px solid #000; padding: 4px 8px;">q₁</th>
-      <th style="border-bottom: 2px solid #000; padding: 4px 8px;">q₂</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border-top: 1px solid #000; padding: 4px 8px;">MPC</td>
-      <td style="border-top: 1px solid #000; border-left: 1px solid #000; padding: 4px 8px;">0.031</td>
-      <td style="border-top: 1px solid #000; padding: 4px 8px;">0.072</td>
-      <td style="border-top: 1px solid #000; border-left: 1px solid #000; padding: 4px 8px;">0.031</td>
-      <td style="border-top: 1px solid #000; padding: 4px 8px;">0.072</td>
-    </tr>
-    <tr>
-      <td style="border-top: 1px solid #000; padding: 4px 8px;">RMPC</td>
-      <td style="border-top: 1px solid #000; border-left: 1px solid #000; padding: 4px 8px;">0.014</td>
-      <td style="border-top: 1px solid #000; padding: 4px 8px;">0.034</td>
-      <td style="border-top: 1px solid #000; border-left: 1px solid #000; padding: 4px 8px;">0.015</td>
-      <td style="border-top: 1px solid #000; padding: 4px 8px;">0.034</td>
-    </tr>
-  </tbody>
-</table>
-
-<p style="text-align:center; font-size: 0.9rem; margin-top: 4px;">
-  <em>Tracking RMSE under tremor disturbance for independent joint angles q₁ and q₂.</em>
-</p>
-
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
 
   <!-- Constant reference card -->
