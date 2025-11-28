@@ -52,10 +52,10 @@ The control strategy is based on a **vertex-based Robust MPC formulation** with 
 - **Data-driven disturbance modeling:**  
   - Tremor-like torque inputs are generated in the clinically relevant **3–7 Hz band**  
   - Resulting joint-velocity deviations are analyzed in **velocity space**  
-  - A minimum-area **convex polygon** is fit to define a **bounded disturbance set**
+  <!-- - A minimum-area **convex polygon** is fit to define a **bounded disturbance set**-->
 
 - **Vertex-based uncertainty representation:**  
-  - The uncertainty set is encoded as the **convex hull of 4 worst-case vertices**
+  - The uncertainty set is encoded as the **convex hull of worst-case vertices**
   - RMPC enforces feasibility and robustness across **all vertices simultaneously**
 
 - **State-dependent cost weighting (agility):**  
@@ -63,10 +63,10 @@ The control strategy is based on a **vertex-based Robust MPC formulation** with 
   - Vertices aligned with the dominant deviation direction are **penalized more heavily**
   - This increases **disturbance rejection exactly where tremor is most harmful**
 
-- **Real-time oriented design:**  
+<!-- - **Real-time oriented design:**  
   - Discrete-time control with **20 ms sampling time (50 Hz)**
   - Prediction horizon: **N = 15**
-  - Balanced for **robustness vs. computational load**
+  - Balanced for **robustness vs. computational load**-->
 
 ---
 
@@ -82,6 +82,10 @@ The control strategy is based on a **vertex-based Robust MPC formulation** with 
   - Joint limits
   - Torque limits
   - Wearable safety & comfort bounds
+- **Real-time oriented design:**  
+  - Discrete-time control with **20 ms sampling time(50 Hz)**
+  - Prediction horizon: **N = 15**
+  <!-- - Balanced for **robustness vs. computational load**-->
 
 A **single robust optimization problem** is solved at each time step with a **shared first control input across all uncertainty vertices** to guarantee causality and robustness.
 
@@ -94,15 +98,15 @@ The RMPC framework is validated through high-fidelity numerical simulations of t
 Simulation studies evaluate:
 - Reference tracking under involuntary tremor inputs  
 - Robustness to bounded user-specific disturbance uncertainty  
-- Comparative performance against a **standard MPC controller**
+- Comparative performance against a **standard MPC controller** under identical conditions.
 
-All controller comparisons use identical:
+<!--All controller comparisons use identical:
 - Initial conditions  
 - Reference trajectories  
 - Actuator limits  
 - Joint constraints  
 
-This ensures a **controlled and fair comparison** between MPC and RMPC.
+This ensures a **controlled and fair comparison** between MPC and RMPC.-->
 
 ---
 
