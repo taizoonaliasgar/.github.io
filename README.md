@@ -23,5 +23,5 @@
 ## 🔗 Links
 - 💼 [LinkedIn](https://linkedin.com/in/taizoon-chunawala)
 - 📄 [Resume (PDF)](resume.pdf)
-- 🎥 [Demos](https://www.youtube.com/@TaizoonChunawala)
+<!-- - 🎥 [Demos](https://www.youtube.com/@TaizoonChunawala)-->
 - ✉️ taizoon.chunawala@gmail.com
